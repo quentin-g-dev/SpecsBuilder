@@ -1,5 +1,3 @@
-# SpecsBuilder
-
 <h1 id="specsTitle" class="text-center mb-3">SpecsBuilder</h1>            
             <h2 id="00_About" class="ml-1">00_About</h2><ul><strong id="SpecsBuilder" class="ml-2">SpecsBuilder</strong><p class="text-justify">DevSpex is a little PHP app created in order to make dev specs writing more "dev-friendly".<br>
 Did you finish and test a module ? Describe it in a simple HTML file with tags around your text (no DOCTYPE !), while you brains are still hot. <br>
