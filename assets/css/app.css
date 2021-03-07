@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/Raleway/static/Raleway-Bold.ttf');
+}
+
+ul {
+    list-style: none;
+    padding:0.2em !important;
+}
+
+/* To custom the color of list item bullets */
+ul li::before {
+    content: "\2022";  
+    color: #17a2b8; 
+    /*font-weight: bold;  */
+    display: inline-block; /* adding space between the bullet and the text */
+    width: 1em; /* (tweak if needed) */
+    margin-left: -1em; /*  (tweak if needed) */
+}
+
+button > a, button > a:hover {
+    color:inherit;
+}
+
+
+
+h1,h2 {
+    font-family: 'raleway-bold';
+}
+
+h3,h4 {
+    font-family: 'raleway';
+}
+p, ul {
+    font-family: 'open-sans';
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#topBox {
+    display:block;
+    z-index : 2;
+    margin : 2vw;
+    opacity: 75%;
+    position : fixed;
+    bottom : 0;
+    right : 0;
+}
+#topBox:hover {
+    opacity: 100%;
+}
