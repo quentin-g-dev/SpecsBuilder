@@ -38,7 +38,7 @@ function display( Array $sections, Int $nb) : String {
 
 function menu(Array $sections, Int $nb) : String {
     foreach($sections as $item) : 
-        $menu = $menu.'<li class="mx-1"><a class="text-info h'.strval($nb+2).'" href="#'. basename($item['name'], '.html').'">'.basename($item['name'], '.html').'</a>';
+        $menu = 'menu'.'<li class="mx-1"><a class="text-info h'.strval($nb+2).'" href="#'. basename($item['name'], '.html').'">'.basename($item['name'], '.html').'</a>';
         if( (isset($item['sub']) && sizeof($item['sub'])>0)) :
             $menu = $menu.'<ul>';
             if(isset($item['sub']) && sizeof($item['sub'])>0) : 
